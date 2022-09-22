@@ -1,0 +1,89 @@
+@media screen and (min-width:1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    
+    .bee{
+        padding: 10px 0px !important;
+    }
+    .tel{
+        margin: 0% !important;
+    }
+    .navbar ul li{
+        padding: 0%;
+    }
+    .ts {
+        padding: 0px 10px;
+    }
+
+    .ts1 {
+        padding: 0px 10px;
+        flex-direction: column-reverse;
+    }
+
+    .sli {
+        max-width: 100%;
+        background-position: center;
+        background-attachment: scroll;
+    }
+
+    .fm {
+        padding: 0px;
+    }
+
+    .fm li {
+        padding: 0px 10px;
+    }
+
+    .dg1 {
+        padding: 0% !important;
+        text-align: center !important;
+    }
+
+    .sp {
+        padding: 0px 10px !important;
+    }
+
+    .sdm {
+        width: 100% !important;
+    }
+
+    .backe1 {
+        width: 100% !important;
+    }
+
+    .drb2 p {
+        margin-top: 50px !important;
+    }
+
+    .dr {
+        padding: 0px 10px;
+    }
+
+    .drb {
+        margin: 20px 0px;
+    }
+
+    .copy {
+        flex-direction: column;
+    }
+
+    .copyright {
+        margin-top: 10px;
+    }
+
+    .tags {
+        padding: 0px 4px !important;
+    }
+
+    .navbar ul li a::before {
+        content: "";
+        display: none;
+        position: absolute;
+        /* bottom: 9px; */
+        /* right: -15px; */
+    }
+}
